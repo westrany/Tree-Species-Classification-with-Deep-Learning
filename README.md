@@ -2,7 +2,7 @@
 
 ### Introduction:
 
----
+***
   
 Classification is a machine learning model used to predict mutually exclusive categories when there are no continuous values. It does so by using labels to classify data, thus predicting a discrete number of values.  
 
@@ -14,6 +14,6 @@ The two cities used are:
 
 ### License:  
 
----
+...
 
 This project follows MIT Lience - see [LICENSE](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/LICENSE) for more details. Due to the library wraps used, other free license types might be inherited.
