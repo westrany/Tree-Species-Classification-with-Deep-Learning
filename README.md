@@ -14,7 +14,8 @@ The two cities used are:
 
 ### Index:  
 
-- ImageSource.csv: a database with image sources
+- ImageSource.csv: a database with image sources  
+- 2023_Spring_Assignment_M6.ipynb: main Jupyter Notebook with project instructions and assembled code
 
 
 ### License:  
