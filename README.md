@@ -1,5 +1,7 @@
 # Tree Classification in Ponta Delgada vs Stirling  
 
+_Note: the following project is and academic assignment part of my Data Science Bachelor's at the University of Stirling._
+
 ### Introduction:
 
 Classification is a machine learning model used to predict mutually exclusive categories when there are no continuous values. It does so by using labels to classify data, thus predicting a discrete number of values.  
