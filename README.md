@@ -1,6 +1,6 @@
 # Tree Classification in Ponta Delgada vs Stirling  
 
-_Note: the following project is and academic assignment part of my Data Science Bachelor's at the University of Stirling._
+_Note: the following project is an academic assignment part of my Data Science Bachelor's at the University of Stirling._
 
 ### Introduction:
 
