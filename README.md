@@ -16,8 +16,9 @@ The two cities used are:
 
 ### Index:  
 
-- ImageSource.csv: a database with image sources  
-- 2023_Spring_Assignment_M6.ipynb: main Jupyter Notebook with project instructions and assembled code
+- [CityA_images](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/tree/main/CityA_images): 200 image database from City A
+- [ImageSource.csv](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/ImageSource.csv): a database with image sources  
+- [2023_Spring_Assignment_M6.ipynb](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/2023_Spring_Assignment_M6.ipynb): main Jupyter Notebook with project instructions and assembled code
 
 
 ### License:  
