@@ -38,6 +38,7 @@ To better train my module on this, I chose to collect image data from two differ
 ### File Index:  
 
 - [CityA_images](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/tree/main/CityA_images): 200 image database from City A
+- [CityB_images](https://github.com/westrany/CSCU9M6-2929300/tree/main/CityB_images): 200 image database from City B
 - [ImageSource.csv](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/ImageSource.csv): a database with image sources  
 - [2023_Spring_Assignment_M6.ipynb](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/2023_Spring_Assignment_M6.ipynb): main Jupyter Notebook with project instructions and assembled code
 
