@@ -22,6 +22,7 @@ To better train my module on this, I chose to collect image data from two differ
 
 • City B is my current city of residence, Stirling (Scotland, UK) as well with an Oceanic climate but with a different Flora constituted by heather moorland, coastal machair and a reduced boreal Caledonian forest. The similarity in climate (both cities have Oceanic climate) can benefit the AI model as tree species will have some similarities in vegetation; their different Floras, however, can complicate the classification problem as the AI will have to learn to identify more varieties of trees, which in itself is a perk as it will train the module to recognize a broader scope of tree species. 
 
+***
 
 ### Implementation: 
 
@@ -34,7 +35,7 @@ To better train my module on this, I chose to collect image data from two differ
 
 ***
 
-#### File Index:  
+### File Index:  
 
 - [CityA_images](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/tree/main/CityA_images): 200 image database from City A
 - [ImageSource.csv](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/ImageSource.csv): a database with image sources  
@@ -42,6 +43,6 @@ To better train my module on this, I chose to collect image data from two differ
 
 ***
 
-#### License:  
+### License:  
 
 This project follows MIT Lience - see [LICENSE](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/LICENSE) for more details. Due to the library wraps used, other free license types might be inherited.
