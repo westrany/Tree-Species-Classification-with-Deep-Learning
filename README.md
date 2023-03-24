@@ -15,7 +15,9 @@ This Contextual Image Classification Project makes use of Deep Learning to train
 
 This image classification project aims to recognize and classify trees in different urban settings, as well as correctly classify them according to species.  
 
-The following [research paper](https://link.springer.com/article/10.1007/s11676-020-01245-0) was used as reference on how to train the classification model on species. 
+The following [research paper](https://link.springer.com/article/10.1007/s11676-020-01245-0) was used as reference on how to train the classification model on species.  
+
+***
 
 ### Dataset:
 
