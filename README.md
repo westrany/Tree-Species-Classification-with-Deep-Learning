@@ -33,17 +33,28 @@ I have chosen to work with a batch size of 32 images (16 from each city). This i
 
 ***
 
-### Implementation: 
+### Dataloader: 
 
-The first step involves object detection, a challenging problem that requires methods for "(e.g. where are they), object localization (e.g. what are their extent), and object classification (e.g. what are they)" [4]. To do so, I have chosen to use R-CCN.  
+The first step involves object detection, a challenging problem that requires methods for "(e.g. where are they), object localization (e.g. what are their extent), and object classification (e.g. what are they)" [4]. To do so, I have chosen to use CCN.  
 
-Region-Based Convolution Neural Network (R-CNN)
+A Convolution Neural Network (R-CNN) is a machine learning algorithm that helps machines understand image features with foresigts and remember these features to further guess whether the name of the new image is fed to the machine. 
+
+I have separated the data into two sets (training and testing) and further aim to predict if a new image contains trees or not. Such is fed to the encoder as:
+- has tree : return [1, 0]
+- doesn't have tree : return [0, 1] 
 
 I have set the learning rate (LR) to 0.001, a commonly used value for deep learning models as small learning rates are prone to having slower covergence while large learning rates are tend to cayse instability during the training process. 
 
 ***
 
+### Implementation:
+
+[to be added]
+
+***
+
 ### Conclusion:
+
 [to be added]
 
 ***
