@@ -56,7 +56,7 @@ I have chosen to work with a batch size of 64 images. This is a rather small num
 
 ### Research Sources:  
 
-[1] C. Zhang, K. Xia, H. Feng, Y. Yang, and X. Du, “Tree species classification using deep learning and RGB optical images obtained by an unmanned aerial vehicle,” Journal of Forestry Research, vol. 32, no. 5, pp. 1879–1888, 2020. 
+[1] C. Zhang, K. Xia, H. Feng, Y. Yang, and X. Du, [“Tree species classification using deep learning and RGB optical images obtained by an unmanned aerial vehicle,”](https://link.springer.com/article/10.1007/s11676-020-01245-0) Journal of Forestry Research, vol. 32, no. 5, pp. 1879–1888, 2020. 
 
 [2] J. Brownlee, “How to control the stability of training neural networks with the batch size,” MachineLearningMastery.com, 27-Aug-2020. [Online]. Available: https://machinelearningmastery.com/how-to-control-the-speed-and-stability-of-training-neural-networks-with-gradient-descent-batch-size/. [Accessed: 24-Mar-2023]. 
 
