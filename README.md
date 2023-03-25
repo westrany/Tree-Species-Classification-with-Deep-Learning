@@ -35,7 +35,9 @@ I have chosen to work with a batch size of 64 images. This is a rather small num
 
 ### Implementation: 
 
-[to be added]  
+The first step involves object detection, a challenging problem that requires methods for "(e.g. where are they), object localization (e.g. what are their extent), and object classification (e.g. what are they)" [4]. To do so, I have chosen to use R-CCN.  
+
+Region-Based Convolution Neural Network (R-CNN)
 
 ***
 
@@ -63,6 +65,8 @@ I have chosen to work with a batch size of 64 images. This is a rather small num
 [3] K. Team, “Keras documentation: Introduction to keras for engineers,” Keras. [Online]. Available: https://keras.io/getting_started/intro_to_keras_for_engineers/. [Accessed: 25-Mar-2023].  
 
 [4] J. Brownlee, “How to train an object detection model with keras,” MachineLearningMastery.com, 01-Sep-2020. [Online]. Available: https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/. [Accessed: 25-Mar-2023]. 
+
+[5]Matterport, “Mask R-CNN for Object Detection and Segmentation,” GitHub, 19-Mar-2018. [Online]. Available: https://github.com/matterport/Mask_RCNN. [Accessed: 25-Mar-2023].   
 
 ***
 
