@@ -39,6 +39,8 @@ The first step involves object detection, a challenging problem that requires me
 
 Region-Based Convolution Neural Network (R-CNN)
 
+I have set the learning rate (LR) to 0.001, a commonly used value for deep learning models as small learning rates are prone to having slower covergence while large learning rates are tend to cayse instability during the training process. 
+
 ***
 
 ### Conclusion:
