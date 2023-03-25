@@ -70,6 +70,8 @@ Region-Based Convolution Neural Network (R-CNN)
 
 [6] “Image classifier using CNN,” GeeksforGeeks, 11-Jan-2023. [Online]. Available: https://www.geeksforgeeks.org/image-classifier-using-cnn/. [Accessed: 25-Mar-2023]. 
 
+[7] “Python: Image classification using keras,” GeeksforGeeks, 03-Feb-2023. [Online]. Available: https://www.geeksforgeeks.org/python-image-classification-using-keras/. [Accessed: 25-Mar-2023]. 
+
 ***
 
 ### License:  
