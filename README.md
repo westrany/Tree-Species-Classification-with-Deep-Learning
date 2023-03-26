@@ -57,6 +57,11 @@ I have set the learning rate (LR) to 0.001, a commonly used value for deep learn
 
 [to be added]
 
+Notes on reshaping image in 3D numpy array:
+The final line reshapes the image data into a 3D NumPy array with dimensions (IMG_SIZE, IMG_SIZE, 1). This is necessary because the input data for many machine learning models, particularly image-based models, are typically 3D arrays with dimensions (height, width, channels). The third dimension (here, with a value of 1) represents the number of color channels in the image data. In this case, since the images are grayscale, there is only one channel.
+
+By reshaping the image data in this way, it becomes compatible with many machine learning frameworks and can be easily passed into a model for training or inference. Additionally, by assigning the reshaped data to a new variable ("data"), the original image data can be preserved for comparison or other purposes.
+
 ***
 
 ### Conclusion:
