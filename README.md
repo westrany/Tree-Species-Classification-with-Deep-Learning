@@ -33,6 +33,12 @@ I have chosen to work with a batch size of 32 images (16 from each city). This i
 
 ***
 
+### Libraries Used:  
+
+[to do]
+
+***
+
 ### Dataloader: 
 
 The first step involves object detection, a challenging problem that requires methods for "(e.g. where are they), object localization (e.g. what are their extent), and object classification (e.g. what are they)" [4]. To do so, I have chosen to use CCN.  
