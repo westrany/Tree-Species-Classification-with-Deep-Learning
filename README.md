@@ -33,7 +33,39 @@ The training data set is composed of 160 images, 80 from each city with 10 examp
 
 The testing data set is composed of 400 images, 200 from each city. They are numbered from 1 to 400, with 1-200 belonging to City A and 201-400 belonging to City B.
 
-***
+***  
+
+### Labels:  
+
+|**#**   |**City**   |**Label**   |**Species**   |
+|:-:|:-:|:--:|:--:|
+|1   |A   | not  | no tree   |
+|2  |A   |ara   |araucaria   |
+|3 |A   |oak   |oak   |
+|4|A   |che   |chestnut   |
+|5   |A   |palm tree   |pal   |
+|6   |A   |   |   |
+|7   | A  |   |   |
+|8   |A   |   |   |
+|9   | B  |   |   |
+|10   | B  |   |   |
+|11   | B |   |   |
+|12   | B  |   |   |
+|13   | B  |   |   |
+|14   | B  |   |   |
+|15   |  B |   |   |
+|16   |   B|   |   |
+
+
+*City A:* 
+no tree as not
+cedar as ced
+araucaria as ara
+oak as oak
+chestnut as che
+palm tree as pal
+plane tree as pla
+australian rubber tree as aus
 
 ### Libraries Used:  
 
