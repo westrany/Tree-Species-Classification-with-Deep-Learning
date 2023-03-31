@@ -23,13 +23,15 @@ A research paper [[1](https://link.springer.com/article/10.1007/s11676-020-01245
 
 Trees vary in shape, colour, density and folliage, which can become a struggle for AI to determine a pattern as the model will have to be trained to recognize intra-class variations (different species of trees), scale variations (trees have different sizes), perspective variation (images portray trees from different angles), different illumination levels (influenced by different stages of the day such as morning, dusk, or night), and background cluttler, to name a few.  
 
-To better train my module on this, I chose to collect image data from two different urban environments with different biomes and cultural settings, thus having two cities (A and B, with 200 images each) which will provide enough diversity in terms of tree species, scale, perspective, illumination and clutter, strengthening my model to more accurate and precise levels.  
+To better train my module on this, I chose to collect image data from two different urban environments with different biomes and cultural settings, thus having two cities which will provide enough diversity in terms of tree species, scale, perspective, illumination and clutter, strengthening my model to more accurate and precise levels.  
 
-• City A is my birthtown, Ponta Delgada (São Miguel, Azores, PT), with an Oceanic climate and Azorean Macaronesian Flora (also refered to as the Laurissilva Forest) with over 60 unique plants (special emphasis on Cedar (_Arceuthobium azoricum_), "Pau Branco" (_Picconia azorica_) and Laurel tree (_Laurus azorica_)).  
+• City A is my birthtown, Ponta Delgada (São Miguel, Azores, PT), with an Oceanic climate and Azorean Macaronesian Flora (also refered to as the Laurissilva Forest) with over 60 unique plants (special emphasis on Cedar, Plane Tree and Araucaria).
 
 • City B is my current city of residence, Stirling (Scotland, UK) as well with an Oceanic climate but with a different Flora constituted by heather moorland, coastal machair and a reduced boreal Caledonian forest. The similarity in climate (both cities have Oceanic climate) can benefit the AI model as tree species will have some similarities in vegetation; their different Floras, however, can complicate the classification problem as the AI will have to learn to identify more varieties of trees, which in itself is a perk as it will train the module to recognize a broader scope of tree species.  
 
-I have chosen to work with a batch size of 32 images (16 from each city). This is a rather small number which will result in noisy updates to model weights; that is to say that there will be many updates with different estimates of the gradient error. This can be useful, resulting in faster learning and (sometimes) a more robust model as noisier batch sizes offer better regularizing effects, lower generalization error, and make it easier to fit one batch worth of training data in GPU memory.
+The training data set is composed of 160 images, 80 from each city with 10 examples per label. They are numbered from 1 to 160, with 1-80 belonging to City A and 81-160 belonging to City B. *This is a rather small number which will result in noisy updates to model weights; that is to say that there will be many updates with different estimates of the gradient error. This can be useful, resulting in faster learning and (sometimes) a more robust model as noisier batch sizes offer better regularizing effects, lower generalization error, and make it easier to fit one batch worth of training data in GPU memory.*
+
+The testing data set is composed of 400 images, 200 from each city. They are numbered from 1 to 400, with 1-200 belonging to City A and 201-400 belonging to City B.
 
 ***
 
