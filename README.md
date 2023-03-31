@@ -52,7 +52,7 @@ The testing data set is composed of 400 images, 200 from each city. They are num
 |11   | B |   |   |
 |12   | B  |   |   |
 |13   | B  |   |   |
-|14   | B  |   |   |
+|14   | B  |   |   |  
 |15   |  B |   |   |
 |16   |   B|   |   |
 
