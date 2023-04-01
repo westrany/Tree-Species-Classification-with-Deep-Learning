@@ -39,7 +39,7 @@ The testing data set is composed of 400 images, 200 from each city. They are num
 
 |**#**   |**City**   |**Species**   |**Label**   |
 |:-:|:-:|:--:|:--:|
-|1   |A & B  | species not recognised             | rno   |
+|1   |A & B|no tree in image   | not  | 
 |2  |A   |araucaria               |ara   |
 |3 |A   |banana tree                |ban   |
 |4|A   |chestnut                 |che   |
@@ -54,7 +54,7 @@ The testing data set is composed of 400 images, 200 from each city. They are num
 |13   | B  |Scots pine   |pin  |
 |14   | B  |beech   |bee   |  
 |15   |  B |bird cherry tree   |bct   |
-|16   |A & B|no tree in image   | tno   |   
+
 
 ***
 
