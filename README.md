@@ -51,7 +51,7 @@ The testing data set is composed of 400 images, 200 from each city. They are num
 |10   | B  |sycamore    |     syc  |  
 |11   | B |oak   |oak   |
 |12   | B  |apple tree   |app   |
-|13   | B  |Scots pine   |pine   |
+|13   | B  |Scots pine   |pin  |
 |14   | B  |beech   |bee   |  
 |15   |  B |bird cherry tree   |bct   |
 |16   |A & B|no tree in image   | tno   |   
