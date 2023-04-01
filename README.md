@@ -41,7 +41,7 @@ The testing data set is composed of 400 images, 200 from each city. They are num
 |:-:|:-:|:--:|:--:|
 |1   |A & B  | species not recognised             | rno   |
 |2  |A   |araucaria               |ara   |
-|3 |A   |oak                |oak   |
+|3 |A   |banana tree                |ban   |
 |4|A   |chestnut                 |che   |
 |5   |A   |palm tree        |pal   |
 |6   |A   |plane tree           |pla   |
