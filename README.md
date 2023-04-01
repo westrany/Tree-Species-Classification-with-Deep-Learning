@@ -37,35 +37,26 @@ The testing data set is composed of 400 images, 200 from each city. They are num
 
 ### Labels:  
 
-|**#**   |**City**   |**Label**   |**Species**   |
+|**#**   |**City**   |**Species**   |**Label**   |
 |:-:|:-:|:--:|:--:|
-|1   |A   | not  | no tree   |
-|2  |A   |ara   |araucaria   |
-|3 |A   |oak   |oak   |
-|4|A   |che   |chestnut   |
-|5   |A   |palm tree   |pal   |
-|6   |A   |   |   |
-|7   | A  |   |   |
-|8   |A   |   |   |
-|9   | B  |   |   |
-|10   | B  |   |   |
-|11   | B |   |   |
-|12   | B  |   |   |
-|13   | B  |   |   |
-|14   | B  |   |   |  
-|15   |  B |   |   |
-|16   |   B|   |   |
+|1   |A & B  | species not recognised             | rno   |
+|2  |A   |araucaria               |ara   |
+|3 |A   |oak                |oak   |
+|4|A   |chestnut                 |che   |
+|5   |A   |palm tree        |pal   |
+|6   |A   |plane tree           |pla   |
+|7   | A  |australian rubber tre   |art  |
+|8   |A   |cedar                   |ced   |
+|9   | B  |ash tree           |ash   |
+|10   | B  |sycamore    |     syc  |  
+|11   | B |oak   |oak   |
+|12   | B  |apple tree   |app   |
+|13   | B  |Scots pine   |pine   |
+|14   | B  |beech   |bee   |  
+|15   |  B |bird cherry tree   |bct   |
+|16   |A & B|no tree in image   | tno   |   
 
-
-*City A:* 
-no tree as not
-cedar as ced
-araucaria as ara
-oak as oak
-chestnut as che
-palm tree as pal
-plane tree as pla
-australian rubber tree as aus
+***
 
 ### Libraries Used:  
 
