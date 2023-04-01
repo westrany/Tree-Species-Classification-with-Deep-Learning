@@ -53,7 +53,7 @@ The training data set is composed of 120 images, 60 from each city, and has 15 l
 |12   | B  |apple tree   |app   |
 |13   | B  |Scots pine   |pin  |
 |14   | B  |beech   |bee   |  
-|15   | A&B |bird cherry tree   |bct   |
+|15   | A & B |bird cherry tree   |bct   |
 
 
 ***
