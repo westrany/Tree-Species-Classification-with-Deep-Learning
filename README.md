@@ -15,7 +15,7 @@ This Contextual Image Classification Project makes use of Deep Learning to train
 
 This image classification project aims to recognize and classify trees species in different urban settings.
 
-A research paper [[1](https://link.springer.com/article/10.1007/s11676-020-01245-0)] was used as reference on how to train the classification model on species.  
+A research paper [1] was used as reference on how to train the classification model on species.  
 
 ***
 
@@ -92,7 +92,7 @@ I have set the learning rate (LR) to 0.001, a commonly used value for deep learn
 
 ### Implementation:
 
-Trees vary in shape, color, density, and foliage, which can become a struggle for AI to determine a pattern as the model will have to be trained to recognize intra-class variations (different species of trees), scale variations (trees have different sizes), perspective variation (images portray trees from different angles), different illumination levels (influenced by different stages of the day such as morning, dusk, or night), and background clutter, to name a few. Due to all these factors, I highly based myself on a research paper [[1](https://link.springer.com/article/10.1007/s11676-020-01245-0)] on tree species classification to design an architecture that best suits the task.
+Trees vary in shape, color, density, and foliage, which can become a struggle for AI to determine a pattern as the model will have to be trained to recognize intra-class variations (different species of trees), scale variations (trees have different sizes), perspective variation (images portray trees from different angles), different illumination levels (influenced by different stages of the day such as morning, dusk, or night), and background clutter, to name a few. Due to all these factors, I highly based myself on a research paper [1] on tree species classification to design an architecture that best suits the task.
 
 To better train my module, I collected data (520 images) from two different urban environments with different biomes and cultural settings, thus having two cities which will provide enough diversity in terms of tree species, scale, perspective, illumination, and clutter, strengthening my model to more accurate and precise levels.
 
@@ -106,14 +106,7 @@ My solution was an implementation of VGG16 as it has a simple and straightforwar
 
 ### Results:  
 
-I ran each model once with 10 epochs, achieve an average of 63% in accuracy for City A and an average 
-of 78% for City B. In cross-scenario examples, City A’s model on City B’s dataset performed better than 
-City B’s model on City A’s data: this was expected as City A has a wider variety of flora (more diverse 
-tree species, different colour and shape in foliage) as compared to City B which has more similarly 
-looking trees, thus limiting what City B’s model perceived as a tree. Nonetheless, City B’s model 
-performed better in classifying images in the “not” label (does not have tree in image), which I believe 
-to be due to City B’s tree species being more similar which allows the module to grow more robust 
-when it comes to learning to identify an object as a tree. 
+I ran each model once with 10 epochs, achieve an average of 63% in accuracy for City A and an average of 78% for City B. In cross-scenario examples, City A’s model on City B’s dataset performed better than City B’s model on City A’s data: this was expected as City A has a wider variety of flora (more diverse tree species, different colour and shape in foliage) as compared to City B which has more similarly looking trees, thus limiting what City B’s model perceived as a tree. Nonetheless, City B’s model performed better in classifying images in the “not” label (does not have tree in image), which I believe to be due to City B’s tree species being more similar which allows the module to grow more robust when it comes to learning to identify an object as a tree. 
 
 ***
 
