@@ -125,10 +125,10 @@ as containing a tree or not when compared to how City A’s module analysed this
 ### File Index:  
 
 - [Dataset](https://github.com/westrany/CSCU9M6-2929300/tree/main/Dataset): folder with image dataset 
-  - [CityA_images](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/tree/main/CityA_images): 200 image database from City A
-  - [CityB_images](https://github.com/westrany/CSCU9M6-2929300/tree/main/CityB_images): 200 image database from City B
+  - [CityA_images](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/tree/main/CityA_images): image database from City A
+  - [CityB_images](https://github.com/westrany/CSCU9M6-2929300/tree/main/CityB_images): image database from City B
 - [ImageSource.csv](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/ImageSource.csv): a database with image sources  
-- [2023_Spring_Assignment_M6.ipynb](https://github.com/westrany/CSCU9M6_Tree-Classification-in-Ponta-Delgada-vs-Stirling/blob/main/2023_Spring_Assignment_M6.ipynb): main Jupyter Notebook with project instructions and assembled code
+- [tree_classification_deep_learning.ipynb](https://github.com/westrany/Tree-Species-Classification-with-Deep-Learning/blob/main/tree_classification_deep_learning.ipynb): Jupyter Notebook with project code
 
 ***  
 
