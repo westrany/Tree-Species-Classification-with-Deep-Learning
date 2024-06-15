@@ -60,7 +60,19 @@ The training data set is composed of 120 images, 60 from each city, and has 15 l
 
 ### Libraries Used:  
 
-[to do]
+Keras: a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. Keras is designed to enable fast experimentation with deep neural networks, making it easy to build and train models.
+
+Matplotlib: a comprehensive library for creating static, animated, and interactive visualizations in Python. It is particularly useful for generating plots, histograms, bar charts, and other types of data visualizations.
+
+Numpy: a fundamental package for scientific computing in Python. It provides support for arrays, matrices, and a wide range of mathematical functions, making it essential for numerical computations. 
+
+os: a standard library in Python that provides a way to use operating system-dependent functionality like reading or writing to the file system. It allows for the manipulation of files and directories, environment variables, and other system-level operations.
+
+PLI (Python Imaging Library): an external library (now succeeded by Pillow) for opening, manipulating, and saving many different image file formats. It is used for tasks such as image processing, including resizing, cropping, and filtering.
+
+scikit-learn: an open-source machine learning library that features various classification, regression, and clustering algorithms. It is built on NumPy, SciPy, and Matplotlib, providing simple and efficient tools for predictive data analysis.
+
+TensorFlow: an open-source platform for machine learning developed by Google. It provides a comprehensive ecosystem for building and deploying machine learning models, particularly deep learning models, across various platforms and devices.
 
 ***
 
