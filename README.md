@@ -1,5 +1,7 @@
 # Tree Species Classification with Deep Learning
 
+![image](https://github.com/westrany/Tree-Species-Classification-with-Deep-Learning/assets/69496007/a50015c2-28f0-41f0-8dc7-ee33385aff02)
+
 _Note: the following project was adapted from an academic assignment part of my Data Science Bachelor's at the University of Stirling._
 
 ### Introduction:
