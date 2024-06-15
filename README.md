@@ -112,7 +112,11 @@ I ran each model once with 10 epochs, achieve an average of 63% in accuracy for 
 
 ### Conclusion:
 
-[to be added]
+The models worked satisfyingly with an average of 60-80% accuracy (depending on the 
+model and if it was being used on its city or on the other city). The model for City A performed better 
+in the cross scenario example as the tree species from City A are similar to the majority of species from 
+City B, yet the module from City B performed better in both scenarios when it came to label images 
+as containing a tree or not when compared to how City A’s module analysed this. 
 
 ***
 
