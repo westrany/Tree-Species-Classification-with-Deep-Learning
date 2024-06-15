@@ -12,14 +12,7 @@ Deep Learning is one of many of machine learning methods which bases itself on a
 
 This Contextual Image Classification Project makes use of Deep Learning to train a Classification model to recognize and correctly classify trees in an urban context. Deep Learning models often require a considerable amount of relevant training data to be able to provide good results, thus the collection of 520 eye-picked images that depict trees in different settings, seasons and lightings. When compiling this dataset, I had extra care to ensure the images I was collecting were either public domain or free to use as long as the owner is ackowledged; to ensure this, I created a csv file with the sources for each image. 
 
-***  
-### Problem Definition  
-
-This image classification project aims to recognize and classify trees species in different urban settings.
-
-A research paper [1] was used as reference on how to train the classification model on species.  
-
-***
+*** 
 
 ### Dataset:
 
