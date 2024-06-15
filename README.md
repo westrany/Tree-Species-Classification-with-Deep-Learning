@@ -1,6 +1,6 @@
 # Tree Species Classification with Deep Learning
 
-_Note: the following project is an academic assignment part of my Data Science Bachelor's at the University of Stirling._
+_Note: the following project was adapted from an academic assignment part of my Data Science Bachelor's at the University of Stirling._
 
 ### Introduction:
 
