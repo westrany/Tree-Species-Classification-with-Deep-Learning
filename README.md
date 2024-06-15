@@ -100,7 +100,20 @@ I chose to work with rather small datasets (training = 260, testing = 260, valid
 
 In preparing the image data, I ensured to reshape the images into a 3D NumPy array with dimensions (IMG_SIZE, IMG_SIZE, 1). This is necessary because the input data for many machine learning models, particularly image-based models, are typically 3D arrays with dimensions (height, width, channels). The third dimension (here, with a value of 1) represents the number of color channels in the image data. Since the images are grayscale, there is only one channel. By reshaping the image data in this way, it becomes compatible with many machine learning frameworks and can be easily passed into a model for training or inference. Additionally, by assigning the reshaped data to a new variable ("data"), the original image data can be preserved for comparison or other purposes.
 
-My solution was an implementation of VGG16 as it has a simple and straightforward architecture (13 convolutional layers and 3 fully connected layers), has state-of-the-art performance in many image datasets, has been pre-trained on the ImageNet dataset which means it can be used as a starting point for training new image classification models (aka transfer learning which significantly reduces the amount of data and time needed to train a model from scratch), and because this CNN highly benefits from its open-source model that is widely used for popular deep learning frameworks such as TensorFlow which I used to implement my code.
+My solution was an implementation of VGG16 as it has a simple and straightforward architecture (13 convolutional layers and 3 fully connected layers), has state-of-the-art performance in many image datasets, has been pre-trained on the ImageNet dataset which means it can be used as a starting point for training new image classification models (aka transfer learning which significantly reduces the amount of data and time needed to train a model from scratch), and because this CNN highly benefits from its open-source model that is widely used for popular deep learning frameworks such as TensorFlow which I used to implement my code.  
+
+***  
+
+### Results:  
+
+I ran each model once with 10 epochs, achieve an average of 63% in accuracy for City A and an average 
+of 78% for City B. In cross-scenario examples, City A’s model on City B’s dataset performed better than 
+City B’s model on City A’s data: this was expected as City A has a wider variety of flora (more diverse 
+tree species, different colour and shape in foliage) as compared to City B which has more similarly 
+looking trees, thus limiting what City B’s model perceived as a tree. Nonetheless, City B’s model 
+performed better in classifying images in the “not” label (does not have tree in image), which I believe 
+to be due to City B’s tree species being more similar which allows the module to grow more robust 
+when it comes to learning to identify an object as a tree. 
 
 ***
 
