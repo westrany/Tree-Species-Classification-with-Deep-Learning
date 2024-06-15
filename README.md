@@ -70,7 +70,7 @@ The training data set is composed of 120 images, 60 from each city, and has 15 l
 
 **PLI (Python Imaging Library):** an external library (now succeeded by Pillow) for opening, manipulating, and saving many different image file formats. It is used for tasks such as image processing, including resizing, cropping, and filtering.
 
-**scikit-learn: **an open-source machine learning library that features various classification, regression, and clustering algorithms. It is built on NumPy, SciPy, and Matplotlib, providing simple and efficient tools for predictive data analysis.
+**scikit-learn:** an open-source machine learning library that features various classification, regression, and clustering algorithms. It is built on NumPy, SciPy, and Matplotlib, providing simple and efficient tools for predictive data analysis.
 
 **TensorFlow:** an open-source platform for machine learning developed by Google. It provides a comprehensive ecosystem for building and deploying machine learning models, particularly deep learning models, across various platforms and devices.
 
